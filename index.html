@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student liberary</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="left" class="gap">
+                <ul>
+                    <li><a href="#">Library System</a></li>
+                </ul>  
+            </div>
+          <div id="right"class="gap">
+               ><a href="#Books">Books</a>
+               <a href="#Register">Register</a>
+               <a href="#">Contact Us</a> 
+                <a href="#">Logout</a>         
+        </div>  
+</nav>  
+    </header> 
+        <main>
+            <section>
+<div class="container">
+    <h2 id="Books">Books</h2>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="#">Book Title1</a>
+                        <div class="title">
+                            <p>Publication Date:2000</p>
+                            <p>Page Count:250</p>
+                            <p>ISBN:123-4567890123</p>
+                        </div>
+                    </td>
+                    <td>Author name1</td>
+                    <td>Genre1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="#">Book title2</a>
+                        <div class="title">
+                            <p>Publication Date:2005</p>
+                            <p>Page Count:300</p>
+                            <p>ISBN:123-4567890456</p>
+                        </div>
+                    </td>
+                    <td>Author name2</td>
+                    <td>Genre2</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="#">Book title3</a>
+                        <div class="title">
+                            <p>Publication Date:2010</p>
+                            <p>Page Count:350</p>
+                            <p>ISBN:123-4567890789</p>
+                        </div>
+                    </td>
+                    <td>Author name3</td>
+                    <td>Genre3</td>
+                    <td> Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</section>
+<section>
+    <div class="container1">
+        <h2 id="Register">Register</h2>
+        <form action="#">
+            <div class="form-group">
+                <div class="form1">
+                <div class="form">
+                    <span>First Name:</span>
+                <label for="name"></label>
+                <input type="text" id="name" required>
+                </div>
+                <div class="form">
+                    <span>Last Name:</span>
+                    <label for="last-name"></label>
+                    <input type="text" id="last- name" required>
+                </div>
+               <div class="form">
+                <span>Date Of Birth:</span>
+                <label for="date"></label>
+                <input type="date" id="date" required>
+               </div>
+               <div class="form">
+                <span>Age:</span>
+                <label for="age"></label>
+                <input type="number" id="age"min="18"max="35"  required>
+               </div>
+               <div class="form">
+                <span>Email:</span>
+                <label for="email"></label>
+                <input type="email" id="email" required>
+               </div>
+                <div class="form">
+                    <span>Password:</span>
+                    <label for="pwd"></label>
+                    <input type="password" id="pwd" required>
+                </div>
+               <div class="form">
+                <span>Confirm Password:</span>
+                <label for="cpwd"></label>
+                <input type="password" id="cpwd" required>
+               </div>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Register" id="btn">
+                <label for="btn"></label>
+            </div>
+               
+            </div>
+        </form>
+    </div>
+</section>
+        </main>
+</body>
+</html>
